@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^index.html$ / [NC,R,L]
+</IfModule>
+
+
+// Add this in your .htaccess file
